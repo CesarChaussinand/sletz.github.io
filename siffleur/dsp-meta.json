@@ -1,0 +1,297 @@
+{
+    "name": "siffleur",
+    "filename": "siffleur.dsp",
+    "version": "2.85.7",
+    "compile_options": "-lang wasm-i -fpga-mem-th 4 -ct 1 -es 1 -mcd 16 -mdd 1024 -mdy 33 -single -ftz 2",
+    "include_pathnames": [
+        "/faust/user/inc0",
+        "/share/faust",
+        "/usr/local/share/faust",
+        "/usr/share/faust",
+        "."
+    ],
+    "size": 1904264,
+    "code": "0HMxATQvHw==",
+    "inputs": 0,
+    "outputs": 2,
+    "meta": [
+        {
+            "author": "César Chaussinand"
+        },
+        {
+            "basics_lib_name": "Faust Basic Element Library"
+        },
+        {
+            "basics_lib_sweep_author": "Jonatan Liljedahl"
+        },
+        {
+            "basics_lib_version": "1.22.0"
+        },
+        {
+            "compile_options": "-single -scal -e ../siffleur.dsp -o siffleur.dsp"
+        },
+        {
+            "delays_lib_name": "Faust Delay Library"
+        },
+        {
+            "delays_lib_version": "1.2.0"
+        },
+        {
+            "filename": "siffleur.dsp"
+        },
+        {
+            "filters_lib_fir_author": "Julius O. Smith III"
+        },
+        {
+            "filters_lib_fir_copyright": "Copyright (C) 2003-2019 by Julius O. Smith III <jos@ccrma.stanford.edu>"
+        },
+        {
+            "filters_lib_fir_license": "MIT-style STK-4.3 license"
+        },
+        {
+            "filters_lib_highpass_author": "Julius O. Smith III"
+        },
+        {
+            "filters_lib_highpass_copyright": "Copyright (C) 2003-2019 by Julius O. Smith III <jos@ccrma.stanford.edu>"
+        },
+        {
+            "filters_lib_iir_author": "Julius O. Smith III"
+        },
+        {
+            "filters_lib_iir_copyright": "Copyright (C) 2003-2019 by Julius O. Smith III <jos@ccrma.stanford.edu>"
+        },
+        {
+            "filters_lib_iir_license": "MIT-style STK-4.3 license"
+        },
+        {
+            "filters_lib_lowpass0_highpass1": "MIT-style STK-4.3 license"
+        },
+        {
+            "filters_lib_lowpass0_highpass1_author": "Julius O. Smith III"
+        },
+        {
+            "filters_lib_lowpass_author": "Julius O. Smith III"
+        },
+        {
+            "filters_lib_lowpass_copyright": "Copyright (C) 2003-2019 by Julius O. Smith III <jos@ccrma.stanford.edu>"
+        },
+        {
+            "filters_lib_lowpass_license": "MIT-style STK-4.3 license"
+        },
+        {
+            "filters_lib_name": "Faust Filters Library"
+        },
+        {
+            "filters_lib_tf1_author": "Julius O. Smith III"
+        },
+        {
+            "filters_lib_tf1_copyright": "Copyright (C) 2003-2019 by Julius O. Smith III <jos@ccrma.stanford.edu>"
+        },
+        {
+            "filters_lib_tf1_license": "MIT-style STK-4.3 license"
+        },
+        {
+            "filters_lib_tf1s_author": "Julius O. Smith III"
+        },
+        {
+            "filters_lib_tf1s_copyright": "Copyright (C) 2003-2019 by Julius O. Smith III <jos@ccrma.stanford.edu>"
+        },
+        {
+            "filters_lib_tf1s_license": "MIT-style STK-4.3 license"
+        },
+        {
+            "filters_lib_tf2_author": "Julius O. Smith III"
+        },
+        {
+            "filters_lib_tf2_copyright": "Copyright (C) 2003-2019 by Julius O. Smith III <jos@ccrma.stanford.edu>"
+        },
+        {
+            "filters_lib_tf2_license": "MIT-style STK-4.3 license"
+        },
+        {
+            "filters_lib_tf2s_author": "Julius O. Smith III"
+        },
+        {
+            "filters_lib_tf2s_copyright": "Copyright (C) 2003-2019 by Julius O. Smith III <jos@ccrma.stanford.edu>"
+        },
+        {
+            "filters_lib_tf2s_license": "MIT-style STK-4.3 license"
+        },
+        {
+            "filters_lib_version": "1.7.1"
+        },
+        {
+            "library_path0": "/usr/local/share/faust/stdfaust.lib"
+        },
+        {
+            "library_path1": "/usr/local/share/faust/oscillators.lib"
+        },
+        {
+            "library_path2": "/usr/local/share/faust/basics.lib"
+        },
+        {
+            "library_path3": "/usr/local/share/faust/maths.lib"
+        },
+        {
+            "library_path4": "/usr/local/share/faust/platform.lib"
+        },
+        {
+            "library_path5": "/usr/local/share/faust/filters.lib"
+        },
+        {
+            "library_path6": "/usr/local/share/faust/reverbs.lib"
+        },
+        {
+            "library_path7": "/usr/local/share/faust/misceffects.lib"
+        },
+        {
+            "library_path8": "/usr/local/share/faust/delays.lib"
+        },
+        {
+            "library_path9": "/usr/local/share/faust/routes.lib"
+        },
+        {
+            "maths_lib_author": "GRAME"
+        },
+        {
+            "maths_lib_copyright": "GRAME"
+        },
+        {
+            "maths_lib_license": "LGPL with exception"
+        },
+        {
+            "maths_lib_name": "Faust Math Library"
+        },
+        {
+            "maths_lib_version": "2.9.0"
+        },
+        {
+            "misceffects_lib_cubicnl_author": "Julius O. Smith III"
+        },
+        {
+            "misceffects_lib_cubicnl_license": "STK-4.3"
+        },
+        {
+            "misceffects_lib_name": "Misc Effects Library"
+        },
+        {
+            "misceffects_lib_version": "2.5.2"
+        },
+        {
+            "name": "siffleur"
+        },
+        {
+            "oscillators_lib_lf_sawpos_author": "Bart Brouns, revised by Stéphane Letz"
+        },
+        {
+            "oscillators_lib_lf_sawpos_licence": "STK-4.3"
+        },
+        {
+            "oscillators_lib_name": "Faust Oscillator Library"
+        },
+        {
+            "oscillators_lib_sawN_author": "Julius O. Smith III"
+        },
+        {
+            "oscillators_lib_sawN_license": "STK-4.3"
+        },
+        {
+            "oscillators_lib_version": "1.7.0"
+        },
+        {
+            "platform_lib_name": "Generic Platform Library"
+        },
+        {
+            "platform_lib_version": "1.3.0"
+        },
+        {
+            "reverbs_lib_kb_rom_rev1_author": "Luca Spanedda"
+        },
+        {
+            "reverbs_lib_kb_rom_rev1_license": "GPL-3.0"
+        },
+        {
+            "reverbs_lib_name": "Faust Reverb Library"
+        },
+        {
+            "reverbs_lib_version": "1.5.1"
+        },
+        {
+            "routes_lib_name": "Faust Signal Routing Library"
+        },
+        {
+            "routes_lib_version": "1.3.0"
+        },
+        {
+            "version": "2.85.6"
+        }
+    ],
+    "ui": [
+        {
+            "type": "vgroup",
+            "label": "siffleur",
+            "items": [
+                {
+                    "type": "checkbox",
+                    "label": "ON",
+                    "varname": "fCheckbox0",
+                    "shortname": "ON",
+                    "address": "/siffleur/ON",
+                    "index": 580892
+                },
+                {
+                    "type": "hslider",
+                    "label": "accel X",
+                    "varname": "fHslider1",
+                    "shortname": "accel_X",
+                    "address": "/siffleur/accel_X",
+                    "index": 564332,
+                    "meta": [
+                        {
+                            "acc": "1 0 -10 0 10"
+                        },
+                        {
+                            "hidden": "1"
+                        }
+                    ],
+                    "init": 0.5,
+                    "min": 0,
+                    "max": 1,
+                    "step": 0.01
+                },
+                {
+                    "type": "hslider",
+                    "label": "accel Y",
+                    "varname": "fHslider2",
+                    "shortname": "accel_Y",
+                    "address": "/siffleur/accel_Y",
+                    "index": 564380,
+                    "meta": [
+                        {
+                            "acc": "0 0 -10 0 10"
+                        },
+                        {
+                            "hidden": "1"
+                        }
+                    ],
+                    "init": 0.5,
+                    "min": 0,
+                    "max": 1,
+                    "step": 0.01
+                },
+                {
+                    "type": "hslider",
+                    "label": "réverbération",
+                    "varname": "fHslider0",
+                    "shortname": "r_verb_ration",
+                    "address": "/siffleur/réverbération",
+                    "index": 524320,
+                    "init": 0,
+                    "min": 0,
+                    "max": 100,
+                    "step": 1
+                }
+            ]
+        }
+    ]
+}
