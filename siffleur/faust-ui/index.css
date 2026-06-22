@@ -60,7 +60,7 @@
   display: block;
   flex: 0 1 auto;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: #00F5D4;
   margin: 5px auto auto auto;
   border-width: 0px;
   border-radius: 4px;
@@ -106,7 +106,7 @@
   display: block;
   flex: 0 1 auto;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: #00F5D4;
   margin: auto 5px auto auto;
   border-width: 0px;
   border-radius: 4px;
@@ -207,7 +207,7 @@
   display: block;
   flex: 0 1 auto;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: #00F5D4;
   margin: 0px;
   border-width: 0px;
   border-radius: 4px;
@@ -290,7 +290,7 @@
   display: block;
   flex: 0 1 auto;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: #00F5D4;
   margin: auto;
   border-width: 0px;
   border-radius: 4px;
@@ -332,7 +332,7 @@
   display: block;
   flex: 0 1 auto;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: #00F5D4;
   margin: 5px auto auto auto;
   border-width: 0px;
   border-radius: 4px;
@@ -373,7 +373,7 @@
   display: block;
   flex: 0 1 auto;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color:#00F5D4;
   margin: auto 5px auto auto;
   border-width: 0px;
   border-radius: 4px;
