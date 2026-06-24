@@ -386,9 +386,9 @@
 .faust-ui-group {
   position: absolute;
   display: block;
-  background-color: rgba(80, 80, 80, 0.75);
+  background-color: #00F5D4;
   border-radius: 4px;
-  border: 1px rgba(255, 255, 255, 0.25) solid;
+  border: 1px #00F5D4 solid;
 }
 .faust-ui-group > .faust-ui-group-label {
   position: relative;
@@ -418,13 +418,13 @@
   user-select: none;
   margin: 10px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #00F5D4;
 }
 .faust-ui-group .faust-ui-tgroup-tabs .faust-ui-tgroup-tab:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: #00F5D4;
 }
 .faust-ui-group .faust-ui-tgroup-tabs .faust-ui-tgroup-tab.active {
-  background-color: rgb(40, 40, 40);
+  background-color: #00F5D4;
   color: white;
 }
 /*!*********************************************************************************************************!*\
