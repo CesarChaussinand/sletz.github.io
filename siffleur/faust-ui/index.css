@@ -106,7 +106,7 @@
   display: block;
   flex: 0 1 auto;
   text-align: center;
-  background-color: #00F5D4;
+  background-color: #00f5d4ff;
   margin: auto 5px auto auto;
   border-width: 0px;
   border-radius: 4px;
@@ -418,13 +418,13 @@
   user-select: none;
   margin: 10px;
   text-align: center;
-  background-color: #00F5D4;
+  background-color: #00f5d4;
 }
 .faust-ui-group .faust-ui-tgroup-tabs .faust-ui-tgroup-tab:hover {
-  background-color: #00F5D4;
+  background-color: #00f5d4;
 }
 .faust-ui-group .faust-ui-tgroup-tabs .faust-ui-tgroup-tab.active {
-  background-color: #00F5D4;
+  background-color: #00f5d4;
   color: white;
 }
 /*!*********************************************************************************************************!*\
