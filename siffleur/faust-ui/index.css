@@ -106,7 +106,7 @@
   display: block;
   flex: 0 1 auto;
   text-align: center;
-  background-color: #00f5d4ff;
+  background-color: #F4F1DE50;
   margin: auto 5px auto auto;
   border-width: 0px;
   border-radius: 4px;
@@ -386,7 +386,7 @@
 .faust-ui-group {
   position: absolute;
   display: block;
-  background-color: #00F5D4;
+  background-color: #2B2D42c0;
   border-radius: 4px;
   border: 1px #00F5D4 solid;
 }
@@ -418,14 +418,14 @@
   user-select: none;
   margin: 10px;
   text-align: center;
-  background-color: #00f5d4;
+  background-color: #00F5D480;
 }
 .faust-ui-group .faust-ui-tgroup-tabs .faust-ui-tgroup-tab:hover {
-  background-color: #00f5d4;
+  background-color: #F4F1DE;
 }
 .faust-ui-group .faust-ui-tgroup-tabs .faust-ui-tgroup-tab.active {
-  background-color: #00f5d4;
-  color: white;
+  background-color: rgb(40, 40, 40);
+  color: #F4F1DE;
 }
 /*!*********************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
